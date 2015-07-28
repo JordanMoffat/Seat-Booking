@@ -1,0 +1,74 @@
+﻿td{
+  border:solid thin transparent;
+  width:25px;
+}
+
+td:hover{
+  background-color:gray;
+}
+table:centre{
+
+}
+
+td.none {
+	background-color: #FFFFFF;
+}
+div {
+	font-family: Arial, Helvetica, sans-serif;
+	text-align: left;
+}
+
+div.content {
+	font-family: Arial, Helvetica, sans-serif;
+	text-align: center;
+}
+h1 {
+	font-family: Arial, Helvetica, sans-serif;
+	text-align: center;
+	font-weight: bold;
+}
+ul {
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+	font-family: Arial, Helvetica, sans-serif;
+	text-align: left;
+}
+h2 {
+	font-family: Arial, Helvetica, sans-serif;
+	text-align: left;
+}
+
+table.keytable {
+	border-style: double;
+	font-family: Arial, Helvetica, sans-serif;
+	left: auto;
+	background-color: #FFFFFF;
+	text-align: center;
+	float: right;
+	clear: right;
+}
+div.order {
+	font-family: Arial, Helvetica, sans-serif;
+	text-align: left;
+}
+div.what {
+	font-family: Arial, Helvetica, sans-serif;
+	text-align: center;
+}
+div.where {
+	font-family: Arial, Helvetica, sans-serif;
+	text-align: center;
+}
+div.when {
+	font-family: Arial, Helvetica, sans-serif;
+	text-align: center;
+}
+div.details {
+	font-family: Arial, Helvetica, sans-serif;
+	text-align: center;
+}
+h3.hover{
+	color: maroon;
+}

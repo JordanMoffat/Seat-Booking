@@ -1,0 +1,202 @@
+<!doctype html>
+<html>
+    
+    <head>
+        <title>Seat Booking</title>
+        <script type='text/javascript' src='jquery.min.js'></script>
+        <script type='text/javascript' src='hall2.js'></script>
+        <script type='text/json' src='hall.json'></script>
+        <link rel='stylesheet' href='hall.css' />
+    	<style type="text/css">
+		.auto-style2 {
+			text-align: center;
+		}
+		</style>
+    </head>
+    
+    <body>
+        <div id='content'></div>
+        
+<h1>Seat Booking</h1>
+
+        <div id='details'>
+            <div id='what'></div>
+            <div id='when'></div>
+            <div id='where'></div>
+        </div>
+        <div id='plan'>
+            <table>
+                <tr>
+                    <td class='n' id='a1'>
+                        <img src='images/a.gif' />
+                    </td>
+                    <td class='n' id='a2'>
+                        <img src='images/a.gif' />
+                    </td>
+                    <td class='n' id='a3'>
+                        <img src='images/a.gif' />
+                    </td>
+                    <td class='n' id='a4'>
+                        <img src='images/a.gif' />
+                    </td>
+                    <td></td>
+                    <td class='n' id='a6'>
+                        <img src='images/a.gif' />
+                    </td>
+                    <td class='n' id='a7'>
+                        <img src='images/a.gif' />
+                    </td>
+                    <td class='n' id='a8'>
+                        <img src='images/a.gif' />
+                    </td>
+                    <td class='n' id='a9'>
+                        <img src='images/a.gif' />
+                    </td>
+                </tr>
+                <tr>
+                    <td class='n' id='b1'>
+                        <img src='images/a.gif' />
+                    </td>
+                    <td class='n' id='b2'>
+                        <img src='images/a.gif' />
+                    </td>
+                    <td class='x' id='b3'>
+                        <img src='images/c.gif' />
+                    </td>
+                    <td class='x' id='b4'>
+                        <img src='images/c.gif' />
+                    </td>
+                    <td></td>
+                    <td class='x' id='b6'>
+                        <img src='images/c.gif' />
+                    </td>
+                    <td class='n' id='b7'>
+                        <img src='images/a.gif' />
+                    </td>
+                    <td class='n' id='b8'>
+                        <img src='images/a.gif' />
+                    </td>
+                    <td class='n' id='b9'>
+                        <img src='images/a.gif' />
+                    </td>
+                </tr>
+                <tr>
+                    <td class='x' id='c1'>
+                        <img src='images/c.gif' />
+                    </td>
+                    <td class='x' id='c2'>
+                        <img src='images/c.gif' />
+                    </td>
+                    <td class='n' id='c3'>
+                        <img src='images/a.gif' />
+                    </td>
+                    <td class='n' id='c4'>
+                        <img src='images/a.gif' />
+                    </td>
+                    <td></td>
+                    <td class='x' id='c6'>
+                        <img src='images/c.gif' />
+                    </td>
+                    <td class='x' id='c7'>
+                        <img src='images/c.gif' />
+                    </td>
+                    <td class='n' id='C8'>
+                        <img src='images/a.gif' />
+                    </td>
+                    <td class='n' id='C9'>
+                        <img src='images/a.gif' />
+                    </td>
+                </tr>
+                <tr>
+                    <td class='x' id='d1'>
+                        <img src='images/c.gif' />
+                    </td>
+                    <td class='x' id='d2'>
+                        <img src='images/c.gif' />
+                    </td>
+                    <td class='x' id='d3'>
+                        <img src='images/c.gif' />
+                    </td>
+                    <td class='x' id='d4'>
+                        <img src='images/c.gif' />
+                    </td>
+                    <td></td>
+                    <td class='x' id='d6'>
+                        <img src='images/c.gif' />
+                    </td>
+                    <td class='x' id='d7'>
+                        <img src='images/c.gif' />
+                    </td>
+                    <td class='x' id='d8'>
+                        <img src='images/c.gif' />
+                    </td>
+                    <td class='x' id='d9'>
+                        <img src='images/c.gif' />
+                    </td>
+                </tr>
+                <tr>
+                    <td class='x' id='e1'>
+                        <img src='images/c.gif' />
+                    </td>
+                    <td class='x' id='e2'>
+                        <img src='images/c.gif' />
+                    </td>
+                    <td class='x' id='e3'>
+                        <img src='images/c.gif' />
+                    </td>
+                    <td class='x' id='e4'>
+                        <img src='images/c.gif' />
+                    </td>
+                    <td></td>
+                    <td class='p' id='e6'>
+                        <img src='images/a.gif' />
+                    </td>
+                    <td class='p' id='e7'>
+                        <img src='images/a.gif' />
+                    </td>
+                    <td class='x' id='e8'>
+                        <img src='images/c.gif' />
+                    </td>
+                    <td class='x' id='e9'>
+                        <img src='images/c.gif' />
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div id='order'>
+            
+			<hr>
+			<table class="keytable" style="width: 19%; margin-left: 0px;">
+				<tr>
+					<td style="width: 385px" class="key">Key</td>
+					<td style="width: 420px" class="auto-style2">&nbsp;</td>
+				</tr>
+				<tr>
+					<td style="height: 26px; width: 385px" class="key">
+                        <img src='images/c.gif' /></td>
+					<td style="height: 26px; width: 420px" class="auto-style2">Seat Taken</td>
+				</tr>
+				<tr>
+					<td style="width: 385px" class="key">
+                        <img src='images/a.gif' /></td>
+					<td style="width: 420px" class="auto-style2">Seat Available</td>
+				</tr>
+			</table>
+			<h2>Order Summary:</h2>
+
+        </div>
+        <div id='subtotal'>
+            
+<h2>Total Price</h2>
+
+            <p id="cheap"></p>
+            <p id="premium"></p>
+            <p id="total"></p>
+        </div>
+        </div>
+    	<div id="link">
+		<h3> Click here to Confirm</h3>
+		</div>
+    </body>
+
+</html>
